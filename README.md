@@ -1,6 +1,6 @@
 ## Aplicação web em Go - Pets Loja
 
-**_Documentação_**
+**_Documentação_** :books:
 
 _Arquivos .html_
 
