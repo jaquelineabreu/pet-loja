@@ -12,7 +12,7 @@ _main.go_
 - Retorna os templates - func Must(t *Template, err error) *Template
 - Rotas (requisição/resposta) - http.HandleFunc(pattern string, handler func(http.ResponseWriter, \*http.Request))
 
-_Obs:_ :shipit:
+_Obs:_ :eyes:
 
 - Para executar o index.html foi embedado código go no inicio e no final da mesma.
 
