@@ -37,18 +37,14 @@
               </tr>
             </thead>
             <tbody>
+              {{range .}}
               <tr>
-                <td>Caixa de transporte</td>
-                <td>Vermelha - Tamanho médio</td>
-                <td>R$:29,90</td>
-                <td>1</td>
+                <td>{{.Nome}}</td>
+                <td>{{.Descricao}}</td>
+                <td>{{.Preco}}</td>
+                <td>{{.Quantidade}}</td>
               </tr>
-              <tr>
-                <td>Arranhador</td>
-                <td>Arranhador de Rampa</td>
-                <td>R$: 59,42</td>
-                <td>1</td>
-              </tr>
+              {{end}}
             </tbody>
           </table>
         </div>
