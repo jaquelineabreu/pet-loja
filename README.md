@@ -1,4 +1,4 @@
-## Aplicação web em Go - Pets Loja
+## Aplicação web em Go - Pet Loja
 
 <!--
 **_Documentação_** :books:
