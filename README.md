@@ -1,5 +1,6 @@
 ## Aplicação web em Go - Pets Loja
 
+<!--
 **_Documentação_** :books:
 
 _Arquivos .html_
@@ -19,4 +20,4 @@ _Obs:_ :eyes:
   Ex:
   {{define "Index"}}
   <bloco html>
-  {{end}}
+  {{end}} -->
