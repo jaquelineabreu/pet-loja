@@ -1,23 +1,9 @@
 ## Aplicação web em Go - Pet Loja
 
-<!--
-**_Documentação_** :books:
+- Esta aplicação foi desenvolvida com golang.
 
-_Arquivos .html_
+- No frontend utilizei HTML5, javascript e o framework bootstrap via CDN.
 
-- Para melhorar a aparência do template utilizei o framework bootstrap via CDN
+- Como bando de dados utilizei o postgresql.
 
-_main.go_
-
-- Ouve e responde requisições - func http.ListenAndServe(addr string, handler http.Handler) error
-- Retorna os templates - func Must(t *Template, err error) *Template
-- Rotas (requisição/resposta) - http.HandleFunc(pattern string, handler func(http.ResponseWriter, \*http.Request))
-
-_Obs:_ :eyes:
-
-- Para executar o index.html foi embedado código go no inicio e no final da mesma.
-
-  Ex:
-  {{define "Index"}}
-  <bloco html>
-  {{end}} -->
+- Com o projeto você pode criar, editar e deletar produtos no banco de dados.
